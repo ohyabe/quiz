@@ -105,4 +105,8 @@ public class QuizServiceTests {
 		res = quizService.createOrUpdate(req);
 		Assert.isTrue(res.getStatusCode() == 200, "create test failed!!");
 	}
+	@Test
+	public void updateTest() {
+	
+	}
 }
